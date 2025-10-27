@@ -28,3 +28,29 @@ public:
         std::cout << species << " has died" << std::endl;
      }
 };
+
+class Duck: public Bird{
+public:
+    /* FIXME */
+    Duck();
+    ~Duck();
+    void cry();
+};
+
+class Penguin: public Bird{
+public:
+    /* FIXME */
+    Penguin();
+    ~Penguin();
+    void cry();
+    void fly();
+};
+
+class Eagle: public Bird{
+public:
+    /* FIXME */
+    Eagle();
+    ~Eagle();
+    void cry();
+    void swim();
+};
